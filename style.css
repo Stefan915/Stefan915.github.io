@@ -233,7 +233,7 @@ body {
 
 .img_mare
 {
-  max-width:90%;
+  max-width:100%;
   display: flex;
   justify-content: center;
 }
