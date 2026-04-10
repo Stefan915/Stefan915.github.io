@@ -56,12 +56,14 @@ body {
 }
 
 .projects {
+  max-width: 100%; 
   position: relative;
   z-index: 2;
 }
 
 .project {
   min-height: 100vh;
+  max-width: 100%; 
   display: flex;
   align-items: center;
   padding: 8vw;
@@ -71,7 +73,8 @@ body {
 }
 
 .project-card {
-  max-width: 1000px;
+  width: 1000px;
+  max-width: 100%; 
   background: var(--card);
   backdrop-filter: blur(10px);
   border: 1px solid var(--border);
@@ -81,6 +84,7 @@ body {
 }
 
 .project h2 {
+  max-width: 100%; 
   margin: 0 0 0.75rem;
   font-size: clamp(2rem, 5vw, 4rem);
   letter-spacing: -0.03em;
@@ -88,6 +92,7 @@ body {
 
 .project p {
   margin: 0;
+  max-width: 100%; 
   color: #333;
   font-size: 1.05rem;
 }
@@ -228,6 +233,7 @@ body {
 
 .img_mare
 {
+  max-width:90%;
   display: flex;
   justify-content: center;
 }
